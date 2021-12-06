@@ -5,7 +5,7 @@ import org.springframework.core.serializer.Serializer;
 public class Customer {
     private int id;
    private String name;
-   private String school2;
+   private String home;
    private Long id1;
 
     public Customer(int id, String name) {
