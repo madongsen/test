@@ -2,11 +2,23 @@ package com.example.demo.entity;
 
 import org.springframework.core.serializer.Serializer;
 
-public class Customer {
+import java.io.Serializable;
+
+public class Customer implements Serializable {
     private int id;
    private String name;
    private String home;
    private Long id1;
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", home='" + home + '\'' +
+                ", id1=" + id1 +
+                '}';
+    }
 
     public Customer(int id, String name) {
         this.id = id;
