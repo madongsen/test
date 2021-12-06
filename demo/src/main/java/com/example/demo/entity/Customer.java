@@ -5,6 +5,7 @@ import org.springframework.core.serializer.Serializer;
 public class Customer {
     private int id;
    private String name;
+   private Lang nid;
 
     public Customer(int id, String name) {
         this.id = id;
@@ -26,4 +27,5 @@ public class Customer {
     public void setName(String name) {
         this.name = name;
     }
+
 }
