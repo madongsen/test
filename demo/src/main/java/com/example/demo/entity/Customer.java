@@ -6,6 +6,7 @@ public class Customer {
     private int id;
    private String name;
    private String school1;
+   private Long id1;
 
     public Customer(int id, String name) {
         this.id = id;
