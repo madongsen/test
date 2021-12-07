@@ -9,6 +9,7 @@ public class Customer implements Serializable {
    private String name;
    private String home;
    private Long id1;
+   private int number;
 
     @Override
     public String toString() {
