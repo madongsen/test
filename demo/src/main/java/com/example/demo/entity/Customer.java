@@ -10,6 +10,7 @@ public class Customer implements Serializable {
    private String home;
    private Long id1;
    private int number;
+   private String new1;
 
     public int getNumber() {
         return number;
