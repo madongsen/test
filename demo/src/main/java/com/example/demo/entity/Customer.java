@@ -15,6 +15,10 @@ public class Customer implements Serializable {
         return number;
     }
 
+    public Customer(int number) {
+        this.number = number;
+    }
+
     public void setNumber(int number) {
         this.number = number;
     }
